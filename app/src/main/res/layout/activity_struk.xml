@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StrukActivity"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:gravity="center"
+        android:text="Selamat datang"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:gravity="center"
+        android:text="Tipe member"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaksi hari ini"
+        android:paddingTop="40dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:text="Kode barang"
+        android:paddingTop="3dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:text="Nama barang"
+        android:paddingTop="3dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:text="Harga barang"
+        android:paddingTop="3dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv6"
+        android:text="Total Harga"
+        android:paddingTop="3dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv7"
+        android:text="Discount harga"
+        android:paddingTop="3dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv8"
+        android:text="Discount member"
+        android:paddingTop="3dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv9"
+        android:text="Jumlah bayar"
+        android:paddingTop="3dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terimakasih telah berbelanja disini!"
+        android:paddingTop="40dp"
+        android:paddingBottom="15dp"
+        ></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/bt2"
+        ></Button>
+
+
+</LinearLayout>
