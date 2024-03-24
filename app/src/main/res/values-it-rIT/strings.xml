@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Agustar Alfonso Quiz 1"</string>
+    <string name="tipe_pelanggan">"tipo di cliente %1$s "</string>
+    <string name="jumlah_barang">la quantità di merce</string>
+    <string name="kode_barang">"codice articolo %1$s "</string>
+    <string name="gold">oro</string>
+    <string name="silver">argento</string>
+    <string name="biasa">normale</string>
+    <string name="hitung">contare</string>
+    <string name="terimakasih">Grazie per aver comprato qui!</string>
+    <string name="selamat_datang">"BENVENUTO %1$s "</string>
+    <string name="transaksi">transazione odierna</string>
+    <string name="nama_barang">"nome della merce %1$s "</string>
+    <string name="harga_barang">"prezzo delle merci %1$s "</string>
+    <string name="total_harga">"prezzo totale %1$s "</string>
+    <string name="diskon_harga">"sconto sul prezzo %1$s "</string>
+    <string name="diskon_member">"sconto per i membri %1$s "</string>
+    <string name="jumlah_bayar">importo del pagamento</string>
+    <string name="share">condividere</string>
+    <string name="nama_pelanggan">Nome del cliente</string>
+    <string name="kode_barang0">"codice articolo "</string>
+    <string name="tipe_pelanggan0">"tipo di cliente "</string>
+</resources>
