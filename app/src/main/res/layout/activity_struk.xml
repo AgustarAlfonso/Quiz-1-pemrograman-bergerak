@@ -14,20 +14,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/tv1"
         android:gravity="center"
-        android:text="Selamat datang"
+        android:text="@string/selamat_datang"
         ></TextView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv2"
         android:gravity="center"
-        android:text="Tipe member"
+        android:text="@string/tipe_pelanggan"
         ></TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Transaksi hari ini"
+        android:text="@string/transaksi"
         android:paddingTop="40dp"
         ></TextView>
 
@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv3"
-        android:text="Kode barang"
+        android:text="@string/kode_barang"
         android:paddingTop="3dp"
         ></TextView>
 
@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv4"
-        android:text="Nama barang"
+        android:text="@string/nama_barang"
         android:paddingTop="3dp"
         ></TextView>
 
@@ -51,7 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv5"
-        android:text="Harga barang"
+        android:text="@string/harga_barang"
         android:paddingTop="3dp"
         ></TextView>
 
@@ -59,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv6"
-        android:text="Total Harga"
+        android:text="@string/total_harga"
         android:paddingTop="3dp"
         ></TextView>
 
@@ -67,7 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv7"
-        android:text="Discount harga"
+        android:text="@string/diskon_harga"
         android:paddingTop="3dp"
         ></TextView>
 
@@ -75,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv8"
-        android:text="Discount member"
+        android:text="@string/diskon_member"
         android:paddingTop="3dp"
         ></TextView>
 
@@ -83,14 +83,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv9"
-        android:text="Jumlah bayar"
+        android:text="@string/jumlah_bayar"
         android:paddingTop="3dp"
         ></TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Terimakasih telah berbelanja disini!"
+        android:text="@string/terimakasih"
         android:paddingTop="40dp"
         android:paddingBottom="15dp"
         ></TextView>
@@ -98,7 +98,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Share"
+        android:text="@string/share"
         android:id="@+id/bt2"
         ></Button>
 

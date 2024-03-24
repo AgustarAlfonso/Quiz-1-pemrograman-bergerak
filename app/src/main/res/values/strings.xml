@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name"> Agustar Alfonso Quiz 1</string>
+    <string name="tipe_pelanggan"> tipe pelanggan %1$s </string>
+    <string name="tipe_pelanggan0"> tipe pelanggan</string>
+    <string name="jumlah_barang"> jumlah barang </string>
+    <string name="kode_barang"> Kode barang %1$s </string>
+    <string name="kode_barang0"> Kode barang  </string>
+    <string name="gold"> gold </string>
+    <string name="silver"> silver </string>
+    <string name="biasa"> biasa </string>
+    <string name="hitung"> hitung </string>
+    <string name="terimakasih"> Terimakasih telah berbelanja disini! </string>
+    <string name="selamat_datang"> Selamat datang  %1$s </string>
+    <string name="transaksi"> Transaksi hari ini </string>
+    <string name="nama_barang"> Nama barang %1$s </string>
+    <string name="harga_barang"> Harga barang %1$s </string>
+    <string name="total_harga"> total harga %1$s </string>
+    <string name="diskon_harga"> Diskon harga %1$s </string>
+    <string name="diskon_member"> Diskon member %1$s </string>
+    <string name="jumlah_bayar"> jumlah bayar </string>
+    <string name="share"> share </string>
+    <string name="nama_pelanggan">nama pelanggan</string>
+
+
 </resources>

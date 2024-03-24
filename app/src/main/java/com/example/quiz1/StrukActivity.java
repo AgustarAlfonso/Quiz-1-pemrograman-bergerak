@@ -2,6 +2,7 @@ package com.example.quiz1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ public class StrukActivity extends AppCompatActivity {
 
     public static final String KEY_DATA = "key_data";
 
+    @SuppressLint("StringFormatInvalid")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +33,8 @@ public class StrukActivity extends AppCompatActivity {
         TextView jumlahbayar = findViewById(R.id.tv9);
         Button btnshare = findViewById(R.id.bt2);
 
+
+
         DecimalFormat format = new DecimalFormat("#,###.##");
 
         produk produk;
@@ -42,15 +46,36 @@ public class StrukActivity extends AppCompatActivity {
         }
 
 
-        namapelanggan.setText("Selamat datang " + produk.getNamapelanggan());
-        membership.setText("Tipe member " + produk.getTipemember());
-        kodebarang.setText("Kode barang: " + produk.getKodebarang());
-        namabarang.setText("Nama barang: " + produk.getNamabarang());
-        hargaawal.setText("Harga barang: Rp" + format.format(produk.getHargaawal()));
-        totalharga.setText("Total Harga barang: Rp" + format.format(produk.getTotalharga()));
-        diskonbarang.setText("Diskon Harga: Rp" + format.format(produk.getDiskonbarang()));
-        diskonmember.setText("Diskon Membership: Rp" + format.format(produk.getDiskonmembership()));
-        jumlahbayar.setText("Jumlah bayar: Rp" + format.format(produk.getJumlahbayar()));
+        String namapelanggans = getString(R.string.selamat_datang ,produk.getNamapelanggan());
+        String memberships = getString(R.string.tipe_pelanggan, produk.getTipemember());
+        String kodebarangs = getString(R.string.kode_barang, produk.getKodebarang());
+        String namabarangs = getString(R.string.nama_barang, produk.getNamabarang());
+        String hargaawals = getString(R.string.harga_barang, format.format(produk.getHargaawal()));
+        String totalhargas = getString(R.string.total_harga, format.format(produk.getTotalharga()));
+        String diskonbarangs = getString(R.string.diskon_harga, format.format(produk.getDiskonbarang()));
+        String diskonmembers = getString(R.string.diskon_member, format.format(produk.getDiskonmembership()));
+        String jumlahbayars = getString(R.string.jumlah_bayar, format.format(produk.getJumlahbayar()));
+
+        namapelanggan.setText(namapelanggans);
+        membership.setText(memberships);
+        kodebarang.setText(kodebarangs);
+        namabarang.setText(namabarangs);
+        hargaawal.setText(hargaawals);
+        totalharga.setText(totalhargas);
+        diskonbarang.setText(diskonbarangs);
+        diskonmember.setText(diskonmembers);
+        jumlahbayar.setText(jumlahbayars);
+
+
+        namapelanggan.setText(namapelanggans);
+        membership.setText(memberships);
+        kodebarang.setText(kodebarangs);
+        namabarang.setText(namabarangs);
+        hargaawal.setText(hargaawals);
+        totalharga.setText(totalhargas);
+        diskonbarang.setText(diskonbarangs);
+        diskonmember.setText(diskonmembers);
+        jumlahbayar.setText(jumlahbayars);
 
         btnshare.setOnClickListener(v -> {
             Intent intent = new Intent(Intent.ACTION_SEND);
