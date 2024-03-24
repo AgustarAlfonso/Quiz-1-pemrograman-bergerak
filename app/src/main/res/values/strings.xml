@@ -17,7 +17,7 @@
     <string name="total_harga"> total harga %1$s </string>
     <string name="diskon_harga"> Diskon harga %1$s </string>
     <string name="diskon_member"> Diskon member %1$s </string>
-    <string name="jumlah_bayar"> jumlah bayar </string>
+    <string name="jumlah_bayar"> jumlah bayar  %1$s </string>
     <string name="share"> share </string>
     <string name="nama_pelanggan">nama pelanggan</string>
 
